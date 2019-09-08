@@ -1,0 +1,57 @@
+.b-header {
+            position: relative;
+            color: @colorLight;
+            &:before {
+                content: ' ';
+                position: absolute;
+                top: -10%;
+                width: 100%;
+                height: 100%;
+                background: url(../images/bg/world-map.png) #0c3c61;
+                filter: brightness(0.5);
+                @media (max-width: 1199px) {
+                    top: 0;
+                }
+            }
+            &__navbar-wrap {
+                padding-top: 33px;
+                padding-bottom: 60px;
+            }
+            &__slogan {
+                font-size: 72px;
+                font-weight: 900;
+                text-transform: uppercase;
+                letter-spacing: 2px;
+                line-height: 86px;
+                text-align: center;
+                float: left;
+                padding-bottom: 102px;
+                @media (max-width: 1199px) {
+                    padding-bottom: 50px;
+                }
+                @media (max-width: 767px) {
+                    float: none;
+                    font-size: 48px;
+                    line-height: 55px;
+                }
+            }
+            &__content {
+                align-items: center;
+                @media (min-width: 768px) and (max-width: 1199px) {
+                    flex-direction: column;
+                    height: 652px;
+                }
+            }
+            &__phone {
+                text-align: center;
+                @media (min-width: 768px) and (max-width: 1199px) {
+                    order: 3;
+                }
+                @media (max-width: 767px) {
+                    padding-bottom: 30px;
+                }
+            }
+            &__text {
+                padding: 0 32px 46px 32px;
+            }
+        }

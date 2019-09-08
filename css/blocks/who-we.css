@@ -1,0 +1,11 @@
+.b-who-we {
+  padding-top: 43px;
+}
+.b-who-we__image-block {
+  display: flex;
+  align-items: center;
+}
+.b-who-we__image {
+  width: 100%;
+  height: auto;
+}

@@ -1,0 +1,31 @@
+.b-form__header {
+  font-size: 24px;
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+.b-form__field {
+  width: 100%;
+  padding-bottom: 10px;
+}
+.b-form__form {
+  display: flex;
+  flex-wrap: wrap;
+  clear: both;
+}
+.b-form__input {
+  border: none;
+  border-bottom: 2px solid #cacaca;
+  align-items: top;
+}
+.b-form__input_area {
+  resize: none;
+}
+.b-form__label {
+  color: #585858;
+  font-family: Lato;
+  font-size: 17px;
+  letter-spacing: 0.42px;
+}
+.b-form__button {
+  margin: 15px 0 0 -15px;
+}

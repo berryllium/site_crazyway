@@ -1,0 +1,38 @@
+.b-text__content {
+  text-align: left;
+  padding-bottom: 20px;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0.42px;
+}
+@media (max-width: 767px) {
+  .b-text {
+    text-align: center;
+  }
+}
+.b-text-slider {
+  right: 10px;
+  top: 10px;
+  width: 75%;
+  padding-left: 25%;
+  padding-top: 10%;
+}
+.b-text__content-slider {
+  position: relative;
+}
+.b-text__content-slider:before {
+  content: '“';
+  position: absolute;
+  left: -110px;
+  width: 100px;
+  height: 86px;
+}
+.b-text__content-slider:after {
+  content: '”';
+  position: absolute;
+  right: -100px;
+  top: 0;
+  width: 100px;
+  height: 86px;
+}

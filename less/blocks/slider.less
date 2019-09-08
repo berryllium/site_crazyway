@@ -1,0 +1,44 @@
+.b-slider {
+    &__item {
+        height: 464px;
+        background-position-y: 100%;
+        background-repeat: no-repeat;
+        @media (max-width: 991px) {
+            background-position-y: 183%;
+            background-position-x: -25%;
+        }
+        @media (max-width: 767px) {
+            background-position-y: 194%;
+            background-position-x: 201%;
+            background-size: 75%;
+        }
+        @media (max-width: 575px) {
+            background-size: 0;
+        }
+    }
+    &__targets {
+        right: -345px;
+        bottom: 20px;
+        @media (max-width: 1199px) {
+            right: -285px;
+        }
+        @media (max-width: 991px) {
+            right: -210px;
+            bottom: -10px;
+        }
+        @media (max-width: 767px) {
+            right: 50px;
+            bottom: 0;
+        }
+        @media (max-width: 575px) {
+            right: 0;
+            bottom: 0;
+        }
+    }
+    &__target {
+        width: 15px!important;
+        height: 15px!important;
+        border-radius: 100%;
+        margin: 0 20px!important;
+    }
+}

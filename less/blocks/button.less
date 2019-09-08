@@ -1,0 +1,18 @@
+.b-button {
+    display: inline-block;
+    background-color: @colorTheme;
+    color: @colorLight;
+    line-height: @buttonHeight;
+    padding: 0 @buttonWidth;
+    border-radius: @buttonHeight/2;
+    &:hover {
+        text-decoration: none;
+        color: #fff;
+        background-color: @colorTheme*1.1;
+        cursor: pointer;
+    }
+    &:active {
+        outline: none;
+        transform: scale(0.95);
+    }
+}
